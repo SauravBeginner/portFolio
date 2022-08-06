@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Typist from "react-typist";
-import Navbar from "../Navbar";
-import About from "./About";
-
 const Header = () => {
   const [count, setCount] = useState(1);
   useEffect(() => {
