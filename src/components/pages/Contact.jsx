@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 const Contact = () => {
   let [name, setName] = useState("");
   let [email, setEmail] = useState("");
@@ -148,32 +149,32 @@ const Contact = () => {
                       <div className="socials">
                         <ul>
                           <li>
-                            <a href="">
+                            <Link href="">
                               <span className="ico-circle">
                                 <i className="bi bi-facebook"></i>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="">
+                            <Link href="">
                               <span className="ico-circle">
                                 <i className="bi bi-instagram"></i>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="">
+                            <Link href="">
                               <span className="ico-circle">
                                 <i className="bi bi-twitter"></i>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="">
+                            <Link href="">
                               <span className="ico-circle">
                                 <i className="bi bi-linkedin"></i>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
