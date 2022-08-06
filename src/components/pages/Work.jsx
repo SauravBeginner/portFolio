@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Testimonial from "./Testimonial";
 import workApi from "./workApi";
+import { Link } from "react-router-dom";
 const Work = () => {
   const [portfolio, setPortfolio] = useState([workApi]);
 
@@ -23,15 +24,15 @@ const Work = () => {
             {workApi.map((currentElement) => (
               <div class="col-md-4">
                 <div class="work-box">
-                  <a
-                    href={currentElement.img}
+                  <Link
+                    to={currentElement.img}
                     data-gallery="portfolioGallery"
                     class="portfolio-lightbox"
                   >
                     <div class="work-img">
                       <img src={currentElement.img} alt="" class="img-fluid" />
                     </div>
-                  </a>
+                  </Link>
                   <div class="work-content">
                     <div class="row">
                       <div class="col-sm-8">
@@ -45,9 +46,9 @@ const Work = () => {
                       </div>
                       <div class="col-sm-4">
                         <div class="w-like">
-                          <a href="portfolio-details.html">
+                          <Link to="portfolio-details.html">
                             <span class="bi bi-plus-circle"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

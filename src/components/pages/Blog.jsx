@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Blog = () => {
   return (
     <>
@@ -20,9 +20,9 @@ const Blog = () => {
             <div class="col-md-4">
               <div class="card card-blog">
                 <div class="card-img">
-                  <a href="blog-single.html">
+                  <Link href="blog-single.html">
                     <img src="assets/img/post-1.jpg" alt="" class="img-fluid" />
-                  </a>
+                  </Link>
                 </div>
                 <div class="card-body">
                   <div class="card-category-box">
@@ -31,7 +31,9 @@ const Blog = () => {
                     </div>
                   </div>
                   <h3 class="card-title">
-                    <a href="blog-single.html">See more ideas about Travel</a>
+                    <Link href="blog-single.html">
+                      See more ideas about Travel
+                    </Link>
                   </h3>
                   <p class="card-description">
                     Proin eget tortor risus. Pellentesque in ipsum id orci porta
@@ -41,14 +43,14 @@ const Blog = () => {
                 </div>
                 <div class="card-footer">
                   <div class="post-author">
-                    <a href="#">
+                    <Link href="#">
                       <img
                         src="assets/img/testimonial-2.jpg"
                         alt=""
                         class="avatar rounded-circle"
                       />
                       <span class="author">Morgan Freeman</span>
-                    </a>
+                    </Link>
                   </div>
                   <div class="post-date">
                     <span class="bi bi-clock"></span> 10 min
@@ -59,9 +61,9 @@ const Blog = () => {
             <div class="col-md-4">
               <div class="card card-blog">
                 <div class="card-img">
-                  <a href="blog-single.html">
+                  <Link href="blog-single.html">
                     <img src="assets/img/post-2.jpg" alt="" class="img-fluid" />
-                  </a>
+                  </Link>
                 </div>
                 <div class="card-body">
                   <div class="card-category-box">
@@ -70,7 +72,9 @@ const Blog = () => {
                     </div>
                   </div>
                   <h3 class="card-title">
-                    <a href="blog-single.html">See more ideas about Travel</a>
+                    <Link href="blog-single.html">
+                      See more ideas about Travel
+                    </Link>
                   </h3>
                   <p class="card-description">
                     Proin eget tortor risus. Pellentesque in ipsum id orci porta
@@ -80,14 +84,14 @@ const Blog = () => {
                 </div>
                 <div class="card-footer">
                   <div class="post-author">
-                    <a href="#">
+                    <Link href="#">
                       <img
                         src="assets/img/testimonial-2.jpg"
                         alt=""
                         class="avatar rounded-circle"
                       />
                       <span class="author">Morgan Freeman</span>
-                    </a>
+                    </Link>
                   </div>
                   <div class="post-date">
                     <span class="bi bi-clock"></span> 10 min
@@ -98,9 +102,9 @@ const Blog = () => {
             <div class="col-md-4">
               <div class="card card-blog">
                 <div class="card-img">
-                  <a href="blog-single.html">
+                  <Link href="blog-single.html">
                     <img src="assets/img/post-3.jpg" alt="" class="img-fluid" />
-                  </a>
+                  </Link>
                 </div>
                 <div class="card-body">
                   <div class="card-category-box">
@@ -109,7 +113,9 @@ const Blog = () => {
                     </div>
                   </div>
                   <h3 class="card-title">
-                    <a href="blog-single.html">See more ideas about Travel</a>
+                    <Link href="blog-single.html">
+                      See more ideas about Travel
+                    </Link>
                   </h3>
                   <p class="card-description">
                     Proin eget tortor risus. Pellentesque in ipsum id orci porta
@@ -119,14 +125,14 @@ const Blog = () => {
                 </div>
                 <div class="card-footer">
                   <div class="post-author">
-                    <a href="#">
+                    <Link href="#">
                       <img
                         src="assets/img/testimonial-2.jpg"
                         alt=""
                         class="avatar rounded-circle"
                       />
                       <span class="author">Morgan Freeman</span>
-                    </a>
+                    </Link>
                   </div>
                   <div class="post-date">
                     <span class="bi bi-clock"></span> 10 min

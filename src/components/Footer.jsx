@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -14,7 +14,7 @@ const Footer = () => {
                 </p>
                 <div class="credits">
                   Designed by
-                  <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                  <Link to="https://bootstrapmade.com/">BootstrapMade</Link>
                 </div>
               </div>
             </div>
