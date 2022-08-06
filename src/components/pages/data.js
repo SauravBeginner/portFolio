@@ -25,13 +25,13 @@ const serviceList = [
   },
   {
     id: 5,
-    title: "Graphic Design",
+    title: "Mobile Development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,provident vitae! Magni tempora perferendis eum non provident.",
     class: "bi-brightness-high",
   },
   {
     id: 6,
-    title: "Marketing Services",
+    title: "Technical Support",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,provident vitae! Magni tempora perferendis eum non provident.",
     class: "bi bi-calendar4-week",
   },

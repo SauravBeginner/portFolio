@@ -63,8 +63,8 @@ const Resume = () => {
               <h3 class="resume-title">Professional Experience</h3>
               <div class="resume-item">
                 <h4>Software Engineer</h4>
-                <h6>Rupeek</h6>
-                <h5>Jan, 2022 - Present</h5>
+                <h6>Oracle</h6>
+                <h5>Jun, 2022 - Present</h5>
                 <p>
                   <em>Bangalore </em>
                 </p>
@@ -90,7 +90,7 @@ const Resume = () => {
               <div class="resume-item">
                 <h4>Technical Support Engineer</h4>
                 <h6>Rupeek</h6>
-                <h5>2017 - 2018</h5>
+                <h5>Feb, 2021 - May, 2022</h5>
                 <p>
                   <em>Bangalore</em>
                 </p>
